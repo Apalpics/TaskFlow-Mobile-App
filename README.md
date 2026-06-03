@@ -31,7 +31,13 @@ By combining these features into a single mobile application, TaskFlow aims to i
 
 6. To provide a simple, efficient, and user-friendly mobile application experience.
 ## 5. Target Users
+### Primary Users
 
+University and college students who need a structured way to manage assignments, deadlines, academic files, and group projects.
+
+### Secondary Users
+
+Student groups working on collaborative assignments and projects that require task tracking and progress monitoring.
 ## 6. Features & Functionalities
 
 ## 7. UI Mock-ups
