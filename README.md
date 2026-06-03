@@ -19,7 +19,17 @@ TaskFlow is a mobile application developed to provide students with a centralize
 
 By combining these features into a single mobile application, TaskFlow aims to improve productivity, organization, and collaboration among students while providing a simple and user-friendly experience.
 ## 4. Objectives
+1. To provide a centralized platform for managing academic assignments and tasks.
 
+2. To help students monitor and track assignment deadlines effectively.
+
+3. To improve productivity through task progress tracking and reminder features.
+
+4. To support collaboration and communication for group projects.
+
+5. To enable students to store and access assignment-related files in one place.
+
+6. To provide a simple, efficient, and user-friendly mobile application experience.
 ## 5. Target Users
 
 ## 6. Features & Functionalities
