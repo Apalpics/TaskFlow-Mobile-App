@@ -6,7 +6,7 @@
 | Abdulgafar Abdullahi Ibrahim | 2311279       | Firebase Setup, Authentication, User Profile |
 | Adil Emadeldin Abdelkarim    | 2320799       | Dashboard UI, Theme Design, Navigation       |
 | Newal Yeshak Abduljalil      | 2315376       | Assignment Management Module                 |
-| Asma Esmail Almrham          | 2212282       | Group Project Management Module              |
+| Marwa Mustafa Ali            | 2110126       | Group Project Management Module              |
 | Abubakar Abdulsalam          | 2328587       | File Uploads and Reminder System             |
 
 ## 2. Project Title
