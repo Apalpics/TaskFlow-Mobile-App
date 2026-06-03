@@ -10,6 +10,7 @@
 | Abubakar Abdulsalam          | 2328587       | File Uploads and Reminder System             |
 
 ## 2. Project Title
+TaskFlow: Smart Academic Task and Collaboration Management System
 
 ## 3. Introduction
 
