@@ -40,11 +40,128 @@ University and college students who need a structured way to manage assignments,
 Student groups working on collaborative assignments and projects that require task tracking and progress monitoring.
 ## 6. Features & Functionalities
 
+### Authentication Module
+
+* User registration and login using Firebase Authentication.
+* Secure access to personal assignment data.
+* Logout functionality.
+
+### Assignment Management Module
+
+* Create new assignments.
+* Edit assignment details.
+* Delete assignments.
+* View assignment information.
+* Mark assignments as completed.
+
+### Deadline Tracking Module
+
+* Display upcoming deadlines.
+* Highlight overdue assignments.
+* Organize assignments by due date and priority level.
+
+### Progress Tracking Module
+
+* Monitor assignment completion status.
+* Visual progress indicators.
+* Track completed and pending tasks.
+
+### Group Collaboration Module
+
+* Manage group project tasks.
+* Assign responsibilities to group members.
+* Monitor group task progress.
+
+### File Management Module
+
+* Upload assignment-related files.
+* Store and access academic resources.
+* Organize files by assignment or project.
+
+### Reminder & Notification Module
+
+* Receive reminders for upcoming deadlines.
+* Notification preferences through user settings.
+
+### User Profile Module
+
+* View and update profile information.
+* Manage account settings.
+* Logout functionality.
+
 ## 7. UI Mock-ups
 
 ## 8. Architecture / Technical Design
 
+TaskFlow will be developed using Flutter and Firebase following a modular architecture.
+
+### Frontend
+
+* Flutter Framework
+* Material Design Components
+* Responsive Mobile UI
+
+### Backend Services
+
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Storage
+
+### Main Modules
+
+* Authentication Module
+* Dashboard Module
+* Assignment Management Module
+* Group Collaboration Module
+* File Management Module
+* Notification Module
+* User Profile Module
+
+### State Management
+
+The application will initially use Flutter's setState approach. As the project grows, Provider may be introduced for better scalability and state management.
+
 ## 9. Data Model
+
+### Users Collection
+
+users
+
+* uid
+* name
+* email
+* profileImage
+
+### Assignments Collection
+
+assignments
+
+* assignmentId
+* title
+* description
+* deadline
+* priority
+* status
+* createdBy
+
+### Groups Collection
+
+groups
+
+* groupId
+* groupName
+* members
+* tasks
+
+### Files Collection
+
+files
+
+* fileId
+* fileName
+* uploadedBy
+* assignmentId
+* fileUrl
 
 ## 10. Flowchart / Sequence Diagram
 
