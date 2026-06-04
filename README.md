@@ -91,6 +91,19 @@ Student groups working on collaborative assignments and projects that require ta
 
 ## 7. UI Mock-ups
 
+
+The following key screens will be included in the TaskFlow mobile application:
+
+1. Login Screen  
+2. Dashboard Screen  
+3. Add Assignment Screen  
+4. Assignment Details Screen  
+5. Group Collaboration Screen  
+6. Progress Tracking Screen  
+7. Profile Screen  
+8. Notifications Screen  
+
+UI mock-ups are designed using Figma and follow a clean, student-friendly interface with consistent colors and simple navigation.
 ## 8. Architecture / Technical Design
 
 TaskFlow will be developed using Flutter and Firebase following a modular architecture.
