@@ -106,76 +106,86 @@ The following key screens will be included in the TaskFlow mobile application:
 UI mock-ups are designed using Figma and follow a clean, student-friendly interface with consistent colors and simple navigation.
 ## 8. Architecture / Technical Design
 
-TaskFlow will be developed using Flutter and Firebase following a modular architecture.
+TaskFlow is developed using Flutter with a modular architecture approach.
 
 ### Frontend
+- Flutter Framework
+- Material Design 3 UI components
+- Responsive layouts using Row, Column, ListView, and Stack
+- Named route navigation
 
-* Flutter Framework
-* Material Design Components
-* Responsive Mobile UI
-
-### Backend Services
-
-* Firebase Authentication
-* Cloud Firestore
-* Firebase Storage
-
-### Main Modules
-
-* Authentication Module
-* Dashboard Module
-* Assignment Management Module
-* Group Collaboration Module
-* File Management Module
-* Notification Module
-* User Profile Module
+### Backend Services (Firebase)
+- Firebase Authentication for user login and registration
+- Cloud Firestore for real-time database storage
+- Firebase Storage for file uploads (assignments and images)
+- Firebase Cloud Messaging for notifications (optional)
 
 ### State Management
+The app initially uses Flutter setState for simple state updates. As the application scales, Provider will be used to manage shared state across modules.
 
-The application will initially use Flutter's setState approach. As the project grows, Provider may be introduced for better scalability and state management.
-
+### App Structure (Modules)
+- Authentication Module
+- Dashboard Module
+- Assignment Management Module
+- Group Collaboration Module
+- File Management Module
+- Notification Module
+- User Profile Module
 ## 9. Data Model
 
 ### Users Collection
-
 users
-
-* uid
-* name
-* email
-* profileImage
+- uid
+- name
+- email
+- profileImage
 
 ### Assignments Collection
-
 assignments
-
-* assignmentId
-* title
-* description
-* deadline
-* priority
-* status
-* createdBy
+- assignmentId
+- title
+- description
+- deadline
+- priority
+- status (pending / in progress / completed)
+- createdBy
 
 ### Groups Collection
-
 groups
-
-* groupId
-* groupName
-* members
-* tasks
+- groupId
+- groupName
+- members (array of user IDs)
+- tasks
 
 ### Files Collection
-
 files
-
-* fileId
-* fileName
-* uploadedBy
-* assignmentId
-* fileUrl
+- fileId
+- fileName
+- uploadedBy
+- assignmentId
+- fileUrl
+- uploadedAt
 
 ## 10. Flowchart / Sequence Diagram
 
+Flowcharts and sequence diagrams will be created using Mermaid Chart.
+
+The diagrams will include:
+- User authentication flow
+- Assignment creation and management flow
+- Group collaboration workflow
+- File upload process
+- Notification and reminder flow
+
 ## 11. References
+
+- Flutter Documentation: https://docs.flutter.dev  
+- Firebase Documentation: https://firebase.google.com/docs  
+- Material Design 3: https://m3.material.io  
+- pub.dev Flutter Packages: https://pub.dev  
+- GitHub Markdown Guide: https://docs.github.com/en/get-started/writing-on-github  
+
+
+
+
+
