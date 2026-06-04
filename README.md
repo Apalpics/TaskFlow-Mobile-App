@@ -191,11 +191,23 @@ The diagrams will include:
 | 19 June 2026    | Final demo video presentation                                                   | 5-minute demo video showing major features and individual contributions                           |
 
 ## 12. References
-- Flutter Documentation: https://docs.flutter.dev  
-- Firebase Documentation: https://firebase.google.com/docs  
-- Material Design 3: https://m3.material.io  
-- pub.dev Flutter Packages: https://pub.dev  
-- GitHub Markdown Guide: https://docs.github.com/en/get-started/writing-on-github  
+## 11. References
+
+1. Flutter Documentation. (n.d.). *Flutter documentation*. Retrieved from https://docs.flutter.dev
+
+2. Firebase. (n.d.). *Firebase documentation*. Retrieved from https://firebase.google.com/docs
+
+3. FlutterFire. (n.d.). *FlutterFire documentation*. Retrieved from https://firebase.flutter.dev
+
+4. Material Design. (n.d.). *Material Design 3 guidelines*. Retrieved from https://m3.material.io
+
+5. Mermaid. (n.d.). *Mermaid chart and diagramming documentation*. Retrieved from https://mermaid.js.org
+
+6. pub.dev. (n.d.). *Dart and Flutter packages*. Retrieved from https://pub.dev
+
+7. Provider Package. (n.d.). *Provider package documentation*. Retrieved from https://pub.dev/packages/provider
+
+8. GitHub Docs. (n.d.). *Basic writing and formatting syntax*. Retrieved from https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax
 
 
 
