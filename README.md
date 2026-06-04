@@ -177,8 +177,20 @@ The diagrams will include:
 - File upload process
 - Notification and reminder flow
 
-## 11. References
+## 11. Project Timeline and Milestones
 
+| Date / Phase    | Planned Activity                                                                | Expected Output                                                                                   |
+| --------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 5 June 2026     | Submit proposal README through GitHub repository URL                            | Proposal submitted with project scope, team roles, mockups, data model, flowchart, and references |
+| 6–7 June 2026   | Set up Flutter project, GitHub structure, and Firebase project                  | Flutter project created, Firebase connected, basic folder structure prepared                      |
+| 8–10 June 2026  | Develop Authentication, User Profile, Dashboard, and Navigation modules         | Login, registration, profile page, dashboard, and bottom navigation working                       |
+| 11–13 June 2026 | Develop Assignment Management, Deadline Tracking, and Progress Tracking modules | Add/edit/delete assignments, assignment list, deadline indicators, and progress screen working    |
+| 14–15 June 2026 | Develop Group Project Management, File Upload, and Reminder modules             | Group tasks, Firebase Storage file upload, due today/due tomorrow/overdue indicators working      |
+| 16–17 June 2026 | Testing, debugging, UI polishing, and Firebase data checking                    | Stable app with fewer errors, improved UI, tested CRUD operations                                 |
+| 18 June 2026    | Final code submission through GitHub and iTa’Leem                               | Complete source code submitted                                                                    |
+| 19 June 2026    | Final demo video presentation                                                   | 5-minute demo video showing major features and individual contributions                           |
+
+## 12. References
 - Flutter Documentation: https://docs.flutter.dev  
 - Firebase Documentation: https://firebase.google.com/docs  
 - Material Design 3: https://m3.material.io  
